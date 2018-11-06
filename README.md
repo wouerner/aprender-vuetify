@@ -1,36 +1,30 @@
-# aprender-vuetify
+# Aprender Vuetify
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
+## Instalação
+``` sh
+vue create aprender-vuetify
+cd aprender-vuetify     
 npm run serve
 ```
+acessar no navegador: http://localhost:8080/
+``` sh
+vue add vuetify vue add vuetify
+npm run serve
+```
+acessar no navegador: http://localhost:8080/
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Agora temos o inicio dos trabalhos prontos.
 
-### Run your tests
-```
-npm run test
-```
+Links:
 
-### Lints and fixes files
-```
-npm run lint
-```
+- Github: https://github.com/vuejs-br
+- Telegram: https://t.me/vuetifybr
 
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
+Videos: 
+https://www.youtube.com/watch?v=FpnvRNkQTY4- Videos
 
-### Run your unit tests
-```
-npm run test:unit
-```
+https://www.youtube.com/watch?v=e4M2MvU5QuQ
+
+
+Link com template de exemplo:
+http://vma.isocked.com/#/components/avatar
