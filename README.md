@@ -1,19 +1,23 @@
 # Aprender Vuetify
 
-## Instalação
+## Criação
 ``` sh
-vue create aprender-vuetify
-cd aprender-vuetify     
-npm run serve
+vue create aprender-vuetify 
+cd aprender-vuetify      
+npm run serve 
 ```
 acessar no navegador: http://localhost:8080/
 ``` sh
-vue add vuetify vue add vuetify
+vue add vuetify 
 npm run serve
 ```
 acessar no navegador: http://localhost:8080/
 
 Agora temos o inicio dos trabalhos prontos.
+
+
+## Instalar Projeto.
+- npm install
 
 Links:
 
