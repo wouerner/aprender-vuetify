@@ -19,6 +19,16 @@ Agora temos o inicio dos trabalhos prontos.
 ## Instalar Projeto.
 - npm install
 
+
+
+
+## handson
+- tela de login
+- Listagem de eventos
+- Cadastro de eventos
+- Edição dos eventos
+- Exclusão dos eventos
+
 Links:
 
 - Github: https://github.com/vuejs-br
