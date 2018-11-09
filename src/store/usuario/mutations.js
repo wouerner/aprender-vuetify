@@ -1,10 +1,11 @@
 import * as types from './types'
 
 export const state = {
-  consolidacaoComprovantes: {}
+  usuario: {}
 }
 
 export const mutations = {
-  [types.SET_REGISTROS_TABELA] () {
+  [types.SET_USUARIO] (state, params) {
+	state.usuario = params
   }
 }

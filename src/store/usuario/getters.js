@@ -1,1 +1,1 @@
-export const dadosMenu = state => state.dadosTabela
+export const obterUsuario = state => state.usuario
