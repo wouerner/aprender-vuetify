@@ -17,10 +17,12 @@ Agora temos o inicio dos trabalhos prontos.
 
 
 ## Instalar Projeto.
-- npm install
-
-
-
+```sh
+git clone https://github.com/wouerner/aprender-vuetify.git
+cd aprender-vuetify
+npm install
+npm run serve
+```
 
 ## handson
 - tela de login
