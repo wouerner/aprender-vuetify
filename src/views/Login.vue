@@ -30,18 +30,18 @@ export default {
   components: {
     HelloWorld
   },
-  data() {
-      return {
-          valid: true,
-          nameRules: [ v => !! v || 'Não pode ser vazio!'],
-          senhaRules: [v => !! v || 'Senha não pode ser vazia!'],
-          usuario: null,
-          senha: null
-      }
+  data () {
+    return {
+      valid: true,
+      nameRules: [ v => !!v || 'Não pode ser vazio!'],
+      senhaRules: [v => !!v || 'Senha não pode ser vazia!'],
+      usuario: null,
+      senha: null
+    }
   },
   methods: {
-    submit() {
-        console.log('enviado!')
+    submit () {
+      console.log('enviado!')
     }
   }
 }

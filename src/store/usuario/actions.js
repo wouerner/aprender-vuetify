@@ -6,7 +6,5 @@ export const dadosMenu = ({ commit }) => {
 }
 
 export const usuario = ({ commit }, params) => {
-	
-	commit(types.SET_USUARIO, params)
+  commit(types.SET_USUARIO, params)
 }
-

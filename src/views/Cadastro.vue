@@ -45,27 +45,27 @@
 <script>
 import { mapActions, mapGetters } from 'vuex'
 export default {
-	name: 'Cadastro',
-	data() {
-		return{
-			name: '',
-			nameRules: [true],
-			data: '',
-			desc: '',
-			modal: false
-		
-		}		
-	},
-	methods: {
-		...mapActions({getEventos: 'eventos/eventos'}),
-		salvar(){
-			const params = {name: this.name, data: this.data, desc: this.desc}
-			this.getEventos(params)
-		}
-	},
-	computed: {
-		...mapGetters({usuario2: 'usuario/obterUsuario'})
-	},
+  name: 'Cadastro',
+  data () {
+    return {
+      name: '',
+      nameRules: [true],
+      data: '',
+      desc: '',
+      modal: false
+
+    }
+  },
+  methods: {
+    ...mapActions({ getEventos: 'eventos/eventos' }),
+    salvar () {
+      const params = { name: this.name, data: this.data, desc: this.desc }
+      this.getEventos(params)
+    }
+  },
+  computed: {
+    ...mapGetters({ usuario2: 'usuario/obterUsuario' })
+  }
 }
 
 </script>
